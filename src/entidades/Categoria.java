@@ -6,13 +6,6 @@ public class Categoria {
 	private String nome;
 	private String tipo;
 	
-	public Categoria(Integer id, String nome, String tipo) {
-		super();
-		this.id = id;
-		this.nome = nome;
-		this.tipo = tipo;
-	}
-
 	public Integer getId() {
 		return id;
 	}
