@@ -11,8 +11,10 @@ public class TesteCategoria {
 		categoria.setTipo("F");
 		
 		//CategoriaDAO.inserir(categoria);
-		categoria.setId(1);
-		System.out.println(CategoriaDAO.alterar(categoria));
+		//categoria.setId(1);
+		//System.out.println(CategoriaDAO.alterar(categoria));
+		
+		System.out.println(CategoriaDAO.excluir(1));
 	}
 	
 }
